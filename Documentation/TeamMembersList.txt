@@ -1,0 +1,9 @@
+Team Members List:
+
+Name			GTID		Email
+----			----		-----
+Daniel Rozen		903104846	daniel.rozen@gmail.com
+Jesse Gillespie		unk		jdgillsp@gmail.com
+Ryan O'Shaughnessy	unk		ryan.oshag@gatech.edu
+A. G. Madi		amadi6		agmadi@gatech.edu
+

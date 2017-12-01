@@ -1,0 +1,58 @@
+Final Project Notes:
+
+Team Members:
+	Daniel Rozen (daniel.rozen@gmail.com)
+	Jesse Gillespie (jdgillsp@gmail.com)
+	Ryan O'Shaughnessy (ryan.oshag@gatech.edu)
+	A. G. Madi (agmadi@gatech.edu)
+
+Input:
+	Video: testing_video.mp4
+	Text: testing_video-centroid_data
+	Pairs of x,y coordinates
+	Video dimensions: 854x480
+
+Output:
+	Pairs of next 60 x,y coordinate predictions
+	File: predictions.txt
+
+Testing:
+	Training video can be used to test the algorithm.  We can run some of the data from the beginning of the video through our algorithm and compare our output with the next set of data in the video.
+
+Deliverables:
+	Place in T-Square's Drop Box
+	List of team members
+	All files needed for execution
+	All source code
+		Include thorough comments
+	README
+		Explain how to execute the program
+		Brief overview of the algorithm
+		Justification for algorithm choice
+
+Algorithm:
+	Kalman filter?
+
+Collaboration:
+	Google Hangouts
+	Github?
+
+
+Team meeting Notes
+Meeting 3:
+rangefinder.py
+RangeFinder class
+heading and velocity base on current and previous data points
+newdata list will have 5 elements, (x,y,velocity,heading angle, angle velocity)
+and we will run it into the filter.
+ 
+ 
+massagedData –the new data structure with heading and yaw. 
+EKF – Extended Kalman Filter
+Not sure about Q matrix.  
+            Our 1st trial is to make it our maximum measurements. 
+ 
+Q matrix  - turning angle and velocity together could modify the covariance matrix. 
+R – matrix – was 2x2 for 4DKalmanFilter – only had positions. 
+dt = even though it’s 1/24 because the movie is 24 fps, we’ll just make it 1 because we just consider each frame 1 unit of time. 
+

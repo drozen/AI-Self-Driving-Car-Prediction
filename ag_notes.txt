@@ -1,0 +1,28 @@
+Initial thoughts on design:
+
+1. The data has some bad points (shown as [-1, -1]) and we should have 
+	something that ignores them.
+
+2. We need to use the data points to figure out a heading for the robot and 
+	whether it's colliding with a wall
+	a. For the walls, get the min/max of the coordinates.
+	b. Do we need to know the size of the bug since the coordinates are
+		center mass?
+
+3. I think we should use standard motion rules when it comes to hitting a wall.
+	As in, the robot should probably bounce back at the opposite angle of
+	collision.
+
+4. For prediction, I think we should use a Kalman filter since it's capable of
+	doing predictions.  Someone on Piazza mention extended Kalman filters
+	and I found an entry on Wikipedia about it, so I'll read up on that.
+
+5. My idea is to use the training data to fine tune our filter.  We can split
+	the data up and feed the filter some of it to see how close we get
+	to the rest of it.
+
+6. I rewatched the last quiz in problem set 2 and it looks like that's pretty 
+	much what we can use to implement the filter.  We just need to add in
+	some exceptions for bouncing off walls.  That filter seems to do a pretty
+	good job predicting the next position.  I think what we need to do is 
+	figure out the proper matrices.

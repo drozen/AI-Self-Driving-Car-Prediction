@@ -1,0 +1,17 @@
+#!/bin/bash
+
+rm -f HexbugPredictor.zip
+mkdir HexbugPredictor
+cp EKF.py HexbugPredictor/
+cp hexbug_tracker.py HexbugPredictor/
+cp training_video1-centroid_data HexbugPredictor/
+cp l2.py HexbugPredictor/
+cp learned HexbugPredictor/
+cp predictor.py HexbugPredictor/
+cp rangeFinder.py HexbugPredictor/
+cp -r testing2 HexbugPredictor/
+cp Documentation/README.pdf HexbugPredictor/
+cp Documentation/TeamMembersList.txt HexbugPredictor/
+zip HexbugPredictor.zip HexbugPredictor/* HexbugPredictor/testing2/*
+rm -rf HexbugPredictor
+
