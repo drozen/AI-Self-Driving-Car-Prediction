@@ -1,5 +1,14 @@
 **README Documentation**
 
+AI for Robotic Car python files are located in AI For Robotics folder.
+
+Included there is /RunawayRobotProject/ which includes a project where I:
+
+Successfully implemented an AI Agent to chase down and catch runaway robot car with measurement noise and same speed as runaway car.  
+-	Method: Predicted future trajectory
+
+Below is info on the main project (files are in the main directory):
+
 This is an AI agent to predict trajectory of a randomly moving robot (created in a team, ranked 3rd place in the class)
 -	Trained After using training video of robot
 -	Used EKF (extended Kalman Filter)
