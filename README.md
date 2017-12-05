@@ -1,5 +1,10 @@
 **README Documentation**
 
+This is an AI agent to predict trajectory of a randomly moving robot (created in a team, ranked 3rd place in the class)
+-	Trained After using training video of robot
+-	Used EKF (extended Kalman Filter)
+
+
 ** **
 
 # How to Execute the Program
