@@ -2,13 +2,23 @@
 
 AI for Robotic Car python files are located in AI For Robotics folder.
 
-Included there is /RunawayRobotProject/ which includes a project where I:
+### Included there is /RunawayRobotProject/ which includes a project where I:
 
-Successfully implemented an AI Agent to chase down and catch runaway robot car with measurement noise and same speed as runaway car.  
+### Successfully implemented an AI Agent to chase down and catch runaway robot car with measurement noise and same speed as runaway car.  
 -	Method: Predicted future trajectory
 
+## Topics learned in the course:
+Localization (using Histogram Filters)
+Tracking
+-	Kalman Filters
+-	Particle Filters
+-	Search, Robot Planning, A*
+-	PID Control for robot motion  (cross track error)  
+PID Control
+SLAM (Simultaneous Localization And Mapping)
+
 ** **
-Below is info on the main project (files are in the main directory):
+### Below is info on the main project (files are in the main directory):
 ** **
 
 # This is an AI agent to predict trajectory of a randomly moving robot (created in a team, ranked 3rd place in the class)
