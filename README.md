@@ -1,6 +1,6 @@
 **README Documentation**
 
-AI for Robotic Car python files are located in AI For Robotics folder.
+AI for Robotic Car python files are located in the AI For Robotics folder.
 
 ### Included there is /RunawayRobotProject/ which includes a project where I:
 
